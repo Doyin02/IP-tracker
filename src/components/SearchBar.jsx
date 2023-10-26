@@ -10,7 +10,7 @@ const SearchBar = ({setIPAddress, fetchLocation}) => {
     }
 
   return (
-    <div className="h-2/5 min-w-full search-bar-container bg-cover flex flex-col gap-5 justify-center items-center">
+    <div className="h-2/5 min-w-full search-bar-container bg-cover flex flex-col justify-center items-center">
       <h2 className="text-white font-bold items-center">IP ADDRESS TRACKER</h2>
       <div className="md:w-1/2 sm:w-1/2 lg:w-1/3 flex justify-center items-center h-10 mb-2.5">
         <input
